@@ -1,0 +1,23 @@
+.signup {
+  > .wrapper {display: flex;
+    justify-content: center;
+    > .form-signup {
+      width: 80%;
+      h2 {
+        text-align: center;
+        padding: 10px;
+      }
+      > input {
+        padding: 15px;
+        width: 100%;
+      }
+      > button {
+        all: unset;
+        padding: 10px 20px;
+        background-color: green;
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+}

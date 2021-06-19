@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  > .wrapper {
+    width: 80%;
+
+    h2 {
+      text-align: center;
+    }
+    > input {
+      padding: 15px;
+      width: 100%;
+    }
+    > .button {
+      display: flex;
+      justify-content: center;
+      button {
+        all: unset;
+        padding: 10px 20px;
+        background-color: green;
+        color: white;
+      }
+    }
+  }
+}

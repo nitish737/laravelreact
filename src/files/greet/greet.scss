@@ -1,0 +1,24 @@
+.greet{
+  display: flex;
+  justify-content: center;
+
+  >.wrapper{
+    width: 80%;
+
+    .btn{
+      display: flex;
+      justify-content: center;
+      >button{
+        all: unset;
+        padding:10px 15px;
+        background-color: green;
+        color:white ;
+      }
+  
+
+    }
+
+
+
+  }
+}
